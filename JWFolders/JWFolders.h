@@ -61,6 +61,11 @@ typedef NSInteger JWFoldersOpenDirection;
 @property (nonatomic, assign) BOOL showsNotch;
 
 
+/* Overrides showsNotch by showing the notch at the top regardless
+ * of the opening direction. Defaults to NO. */
+@property (nonatomic, assign) BOOL showsNotchAtTop;
+
+
 /* Sets whether the upper and lower panes have a darkened
  * effect applied to them when animating to the open position.
  * This could help to offset your content from the surrounding views.
